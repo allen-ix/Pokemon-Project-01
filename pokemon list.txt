@@ -1,0 +1,277 @@
+Name: Pikachu
+Rarity: Rare
+HP: 60
+Card Type: Electric
+Attack: Thunder Shock
+Description: A mouse-like pokemon that can generate electricity.
+Weaknesses: Ground
+Card Number: 25
+Release Date: 01/09/1999
+Evolution Stage: Basic
+Special Abilities: Static
+
+==============================
+
+Name: Charizard
+Rarity: Rare
+HP: 150
+Card Type: Fire, Flying
+Attack: Fire Blast
+Description: A dragon-like pokemon that can breathe fire.
+Weaknesses: Water, Electric, Rock
+Card Number: 6
+Release Date: 01/09/1999
+Evolution Stage: Stage 2
+Special Abilities: Blaze
+
+==============================
+
+Name: Mewtwo
+Rarity: Uncommon
+HP: 150
+Card Type: Psychic
+Attack: Psychic
+Description: A genetically engineered pokemon that has powerful psychic abilities.
+Weaknesses: Dark, Bug, Ghost
+Card Number: 10
+Release Date: 01/09/1999
+Evolution Stage: Basic
+Special Abilities: Pressure
+
+==============================
+
+Name: Bulbasaur
+Rarity: Rare
+HP: 50
+Card Type: Grass, Poison
+Attack: Vine Whip
+Description: A plant-like pokemon that has a bulb on its back.
+Weaknesses: Fire, Ice, Flying, Psychic
+Card Number: 44
+Release Date: 01/09/1999
+Evolution Stage: Basic
+Special Abilities: Overgrow
+
+==============================
+
+Name: Squirtle
+Rarity: Rare
+HP: 40
+Card Type: Water
+Attack: Bubble
+Description: A turtle-like pokemon that can squirt water.
+Weaknesses: Electric, Grass
+Card Number: 63
+Release Date: 01/09/1999
+Evolution Stage: Basic
+Special Abilities: Torrent
+
+==============================
+
+Name: Eevee
+Rarity: Rare
+HP: 50
+Card Type: Normal
+Attack: Tackle
+Description: A fox-like pokemon that can evolve into different types.
+Weaknesses: Fighting
+Card Number: 51
+Release Date: 16/06/1999
+Evolution Stage: Basic
+Special Abilities: Adaptability
+
+==============================
+
+Name: Snorlax
+Rarity: Uncommon
+HP: 140
+Card Type: Normal
+Attack: Body Slam
+Description: A huge pokemon that likes to sleep and eat.
+Weaknesses: Fighting
+Card Number: 27
+Release Date: 16/06/1999
+Evolution Stage: Basic
+Special Abilities: Thick Fat
+
+==============================
+
+Name: Lugia
+Rarity: Rare
+HP: 130
+Card Type: Psychic, Flying
+Attack: Aeroblast
+Description: A legendary pokemon that can control the wind.
+Weaknesses: Electric, Ice, Dark, Ghost
+Card Number: 9
+Release Date: 21/12/2000
+Evolution Stage: Basic
+Special Abilities: Pressure
+
+==============================
+
+Name: Ho-Oh
+Rarity: Rare
+HP: 130
+Card Type: Fire, Flying
+Attack: Sacred Fire
+Description: A legendary pokemon that can resurrect the dead.
+Weaknesses: Water,Electric, Rock
+Card Number: 7
+Release Date: 21/09/2001
+Evolution Stage: Basic
+Special Abilities: Regenerator
+
+==============================
+
+Name: Celebi
+Rarity: Rare
+HP: 70
+Card Type: Pyschic, Grass
+Attack: Heal Bell
+Description: A mythical pokemon that can travel through time.
+Weaknesses: Fire, Ice, Bug, Ghost, Dark, Flying
+Card Number: 3
+Release Date: 28/02/2002
+Evolution Stage: Basic
+Special Abilities: Natural Cure
+
+==============================
+
+Name: Gengar
+Rarity: Uncommon
+HP: 60
+Card Type: Ghost, Poison
+Attack: Shadow Punch
+Description: A dark purple, bipedal Pokemon with a roundish body.
+Weaknesses: Ghost ,Dark , Ground, Psychic
+Card Number: 94
+Release Date: 06/07/2016
+Evolution Stage: Final Form
+Special Abilities: Cursed Body
+
+==============================
+
+Name: Gyarados
+Rarity: Rare
+HP: 95
+Card Type: Water, Flying
+Attack: Waterfall
+Description: A piscine, draconic Pokemmon with a long serpentine body coverd in slightly overlapping scales
+Weaknesses: Electric, Rock
+Card Number: 130
+Release Date: 1996
+Evolution Stage: Final Form
+Special Abilities: Intimidate
+
+==============================
+
+Name: Mudkip
+Rarity: Common
+HP: 50
+Card Type: Water
+Attack: Watergun
+Description: A small, ammphibious, quadrupedal Pokemon.
+Weaknesses: Electric, Grass
+Card Number: 258
+Release Date: 08/12/2017
+Evolution Stage: Basic
+Special Abilities: Torrent
+
+==============================
+
+Name: Meowth
+Rarity: Rare
+HP: 40
+Card Type: Normmal
+Attack: Fake out
+Description:  A small, feline Pokemon with creamm0colored fur that turns brown at the tips of its hind paws and tail.
+Weaknesses: Fighting
+Card Number: 52
+Release Date: 06/07/2016
+Evolution Stage: Basic
+Special Abilities: Pickup
+
+==============================
+
+Name: Jigglypuf
+Rarity: Rare
+HP: 115
+Card Type: Normmal, Fairy
+Attack: Disarming Voice
+Description: A pink pokemon with a spherical body
+Weaknesses: Steel, Dark
+Card Number: 39
+Release Date: 28/05/1996
+Evolution Stage: Basic
+Special Abilities: Cute Charm
+
+==============================
+
+Name: Lucario
+Rarity: Rare
+HP: 70
+Card Type: Fighting/Steel
+Attack: Metal Claw
+Description: A bipedal, canine-like Pokemon with predominantly blue and black fur
+Weaknesses: Fire, Fighting, Ground
+Card Number: 448
+Release Date: 05/16/2005
+Evolution Stage: Final Form
+Special Abilities: Inner Focus
+
+==============================
+
+Name: Wobbuffet
+Rarity: Rare
+HP: 190
+Card Type: Pyschic
+Attack: Destiny Bond
+Description: A tall, cyan Pokemon with a soft body.
+Weaknesses: Bug, Ghost, Dark
+Card Number: 202
+Release Date: 16/02/2017
+Evolution Stage: Final Form
+Special Abilities: Shadow Tag
+
+==============================
+
+Name: Darkrai
+Rarity: Rare
+HP: 70
+Card Type: Dark
+Attack: Dark Pulse
+Description: A black, shadow-like Pokemon. It has a small head with a white fog-like ghostly plume billowing from its head covering one of its bright blue eyes
+Weaknesses: Bug, Fairy, Fighting
+Card Number: 491
+Release Date: 02/2007
+Evolution Stage: Final Form
+Special Abilities: Intimidate
+
+==============================
+
+Name: Totodile
+Rarity: Common
+HP: 50
+Card Type: Water
+Attack: Water Gun
+Description: Is a bipedal, crocodilian Pokemon with well-developed jaws.
+Weaknesses: Electric, Grass
+Card Number: 158
+Release Date: 16/02/2017
+Evolution Stage: Basic
+Special Abilities: Torrent
+
+==============================
+
+Name: Deoxys
+Rarity: Rare
+HP: 50
+Card Type: Pyschic
+Attack: Cosmic Power
+Description: An alien-like, bipedal Pokemon that has four forms. Each focused on a different stat.
+Weaknesses: Bug, Ghost, Dark
+Card Number: 186
+Release Date: 17/06/2004
+Evolution Stage: Normal Form
+Special Abilities: Pressure

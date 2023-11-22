@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+/*NAVBAR*/
+.navbar {
+  background-color: grey;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 5px;
+  float: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.2s;
+}
+
+/*CARDS*/
+.cards-container {
+  margin: 1%;
+  text-align: center;
+}
+
+.card-box {
+  display: inline-block;
+  padding: 2%;
+  width: 25%;
+  max-width: 360px;
+}
+
+.card {
+  border-radius: 15px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .card-box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-box {
+    width: 100%;
+  }
+}
+
+.card:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+  transition: 0.2s;
+}
+
+.card-image,
+.card-name,
+h2 {
+  text-align: center;
+}
+
+.card hr {
+  border: solid 1px black;
+}
+
+.card-type {
+  padding: 7%;
+  border-radius: 15px;
+}
+
+.card-image {
+  border-radius: 7.5px;
+  border: solid 1px black;
+}
+
+.card img {
+  width: 75%;
+}
+
+.card .card-name .sbs {
+  display: inline-block;
+}
+
+.card #card-number {
+  color: grey;
+}
+
+.card .card-stats th {
+  text-align: right;
+}
+
+/*CARD TYPES*/
+/*card background*/
+.card-type,
+#electric {
+  background-color: #ffe169;
+  border: solid 10px #b69121;
+}
+
+.card-type,
+#fire {
+  background-color: #f1a7a9;
+  border: solid 10px #bd1f21;
+}
+
+.card-type,
+#psychic {
+  background-color: #ffc2d4;
+  border: solid 10px #b9375e;
+}
+
+.card-type,
+#grass {
+  background-color: #92e6a7;
+  border: solid 10px #1a7431;
+}
+
+.card-type,
+#water {
+  background-color: #a4cefc;
+  border: solid 10px #1557c0;
+}
+
+.card-type,
+#normal {
+  background-color: #e6ccb2;
+  border: solid 10px #b08968;
+}
+
+/*image backgroung*/
+.card-image,
+#electric-img {
+  background: radial-gradient(circle, #ffffcc, #ffeb3b);
+}
+
+.card-image,
+#fire-img {
+  background: radial-gradient(circle, #ffcccc, #ff6666);
+}
+
+.card-image,
+#psychic-img {
+  background: radial-gradient(circle, #ffcccc, #ff99cc);
+}
+
+.card-image,
+#grass-img {
+  background: radial-gradient(circle, #ccffcc, #99ff99);
+}
+
+.card-image,
+#water-img {
+  background: radial-gradient(circle, #ccf5ff, #99e6e6);
+}
+
+.card-image,
+#normal-img {
+  background: radial-gradient(circle, #deb887, #d2b48c);
+}
+
+/*CARD RARITIES*/
+.card-rarity .rarity {
+  display: inline-block;
+}
+
+.card-rarity #common-text {
+  color: #b69121;
+}
+
+.card-rarity #uncommon-text {
+  color: #208b3a;
+}
+
+.card-rarity #rare-text {
+  color: #8b0000;
+}
