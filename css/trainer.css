@@ -13,6 +13,9 @@ body {
   background-color: grey;
   overflow: hidden;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar a {

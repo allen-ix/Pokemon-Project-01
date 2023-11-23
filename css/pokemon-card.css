@@ -13,6 +13,9 @@ body {
   background-color: grey;
   overflow: hidden;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar a {
@@ -48,12 +51,23 @@ body {
   display: inline-block;
   padding: 2%;
   width: 25%;
-  max-width: 360px;
+  max-width: 400px;
+  height: 480px;
+  box-sizing: border-box;
 }
 
 .card {
   border-radius: 15px;
   text-align: left;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+  transition: 0.2s;
 }
 
 @media (max-width: 768px) {
@@ -66,11 +80,6 @@ body {
   .card-box {
     width: 100%;
   }
-}
-
-.card:hover {
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
-  transition: 0.2s;
 }
 
 .card-image,
@@ -107,90 +116,4 @@ h2 {
 
 .card .card-stats th {
   text-align: right;
-}
-
-/*CARD TYPES*/
-/*card background*/
-.card-type,
-#electric {
-  background-color: #ffe169;
-  border: solid 10px #b69121;
-}
-
-.card-type,
-#fire {
-  background-color: #f1a7a9;
-  border: solid 10px #bd1f21;
-}
-
-.card-type,
-#psychic {
-  background-color: #ffc2d4;
-  border: solid 10px #b9375e;
-}
-
-.card-type,
-#grass {
-  background-color: #92e6a7;
-  border: solid 10px #1a7431;
-}
-
-.card-type,
-#water {
-  background-color: #a4cefc;
-  border: solid 10px #1557c0;
-}
-
-.card-type,
-#normal {
-  background-color: #e6ccb2;
-  border: solid 10px #b08968;
-}
-
-/*image backgroung*/
-.card-image,
-#electric-img {
-  background: radial-gradient(circle, #ffffcc, #ffeb3b);
-}
-
-.card-image,
-#fire-img {
-  background: radial-gradient(circle, #ffcccc, #ff6666);
-}
-
-.card-image,
-#psychic-img {
-  background: radial-gradient(circle, #ffcccc, #ff99cc);
-}
-
-.card-image,
-#grass-img {
-  background: radial-gradient(circle, #ccffcc, #99ff99);
-}
-
-.card-image,
-#water-img {
-  background: radial-gradient(circle, #ccf5ff, #99e6e6);
-}
-
-.card-image,
-#normal-img {
-  background: radial-gradient(circle, #deb887, #d2b48c);
-}
-
-/*CARD RARITIES*/
-.card-rarity .rarity {
-  display: inline-block;
-}
-
-.card-rarity #common-text {
-  color: #b69121;
-}
-
-.card-rarity #uncommon-text {
-  color: #208b3a;
-}
-
-.card-rarity #rare-text {
-  color: #8b0000;
 }

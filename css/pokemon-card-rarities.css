@@ -1,0 +1,16 @@
+/*CARD RARITIES*/
+.card-rarity .rarity {
+  display: inline-block;
+}
+
+.card-rarity #common-text {
+  color: #b69121;
+}
+
+.card-rarity #uncommon-text {
+  color: #208b3a;
+}
+
+.card-rarity #rare-text {
+  color: #8b0000;
+}

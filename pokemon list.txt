@@ -275,3 +275,76 @@ Card Number: 186
 Release Date: 17/06/2004
 Evolution Stage: Normal Form
 Special Abilities: Pressure
+
+==============================
+
+Trainers:
+Name: Ash
+Age: 10
+Location: Pallet Town
+Email: ash@pokemon.com
+
+==============================
+
+Name: Gary
+Age: 10
+Location: Pallet Town
+Email: gary@pokemon.com
+
+==============================
+
+Name: Giovanni
+Age: 40
+Location: Viridian City
+Email: giovanni@teamrocket.com
+
+==============================
+
+Name: Silver
+Age: 16
+Location: Johto City
+Email: silver@pokemon.com
+
+==============================
+
+Name: Gold
+Age: 16
+Location: Erika City
+Email: Erika@pokemon.com
+
+==============================
+
+Name: Steven
+Age: 31
+Location: Ever Grande City
+Email: stevenstone@pokemon.com
+
+==============================
+
+Name: Roxanne
+Age: 18
+Location: Rustboro City
+Email: roxanne@pokemon.com
+
+==============================
+
+Name: Aaron
+Age: 21
+Location: Sinoh Region
+Email: aaronelitefor@pokemon.com
+
+==============================
+
+Name: Ronald
+Age: 20
+Location: Buncag Grounds
+Email: ronaldpogi@pokemon.com
+
+==============================
+
+Name: Cedric
+Age: 19
+Location: Bunkhose
+Email: cedric@pokemon.com
+
+==============================
