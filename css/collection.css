@@ -44,8 +44,17 @@ body {
 /*COLLECTION*/
 .collection-container {
   min-height: 100vh;
+  border-collapse: collapse;
   margin: 1%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-container table {
+  border-collapse: collapse;
+  background-color: white;
+  border: 2px solid #dddddd;
 }
 
 /*FOOTER*/

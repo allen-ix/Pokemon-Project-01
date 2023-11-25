@@ -44,20 +44,15 @@ body {
 /*TRAINERS*/
 .trainers-container {
   min-height: 100vh;
+  border-collapse: collapse;
+  margin: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1%;
 }
 
-.trainers-container {
+.trainers-container table {
   border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.trainers-container .trainers-table table {
-  border-collapse: collapse;
-  margin-bottom: 20px;
   background-color: white;
   border: 2px solid #dddddd;
 }
