@@ -10,7 +10,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: grey;
+  background-color: red;
   overflow: hidden;
   text-align: center;
   position: sticky;
@@ -39,4 +39,20 @@ body {
   border-radius: 10px;
   background-color: whitesmoke;
   color: black;
+}
+
+/*COLLECTION*/
+.collection-container {
+  min-height: 100vh;
+  margin: 1%;
+  text-align: center;
+}
+
+/*FOOTER*/
+footer {
+  height: 20vh;
+  background-color: red;
+  color: white;
+  bottom: 0;
+  text-align: center;
 }

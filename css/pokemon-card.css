@@ -10,7 +10,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: grey;
+  background-color: red;
   overflow: hidden;
   text-align: center;
   position: sticky;
@@ -43,6 +43,7 @@ body {
 
 /*CARDS*/
 .cards-container {
+  min-height: 100vh;
   margin: 1%;
   text-align: center;
 }
@@ -52,22 +53,9 @@ body {
   padding: 2%;
   width: 25%;
   max-width: 400px;
-  height: 480px;
+  height: 50%;
+  max-height: 480;
   box-sizing: border-box;
-}
-
-.card {
-  border-radius: 15px;
-  text-align: left;
-  height: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.card:hover {
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
-  transition: 0.2s;
 }
 
 @media (max-width: 768px) {
@@ -80,6 +68,20 @@ body {
   .card-box {
     width: 100%;
   }
+}
+
+.card {
+  border-radius: 15px;
+  text-align: left;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
+  transition: 0.2s;
 }
 
 .card-image,
@@ -116,4 +118,13 @@ h2 {
 
 .card .card-stats th {
   text-align: right;
+}
+
+/*FOOTER*/
+footer {
+  height: 20vh;
+  background-color: red;
+  color: white;
+  bottom: 0;
+  text-align: center;
 }
