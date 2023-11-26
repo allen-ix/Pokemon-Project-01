@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #d3d3d3;
+  background-image: url('/img/bg.png');
+  background-size: cover; /* This property ensures the image covers the entire body */
+  background-position: center; 
 }
 
 /*NAVBAR*/
@@ -88,4 +90,36 @@ footer {
   color: white;
   bottom: 0;
   text-align: center;
+}
+
+/* Style for the table */
+.styled-table {
+  width: 80%;
+  border-collapse: collapse;
+  border: 1px solid #ddd; /* Border for the table */
+}
+
+/* Style for table headers */
+.styled-table th {
+  background-color: #f2f2f2; /* Header background color */
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd; /* Border for the header cells */
+}
+
+/* Style for table data cells */
+.styled-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd; /* Border for the data cells */
+}
+
+/* Alternate row background color */
+.styled-table tbody tr:nth-child(even) {
+  background-color: #ffdddd; /* Light red color for even rows */
+}
+
+/* Alternate row background color for odd rows (to maintain white color) */
+.styled-table tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White color for odd rows */
 }

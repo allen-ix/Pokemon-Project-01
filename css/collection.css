@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #d3d3d3;
+  background-image: url('/img/bg.png');
+  background-size: cover; /* This property ensures the image covers the entire body */
+  background-position: center; 
 }
 
 /*NAVBAR*/
