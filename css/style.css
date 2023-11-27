@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Roboto Slab';
 }
 
 body {
@@ -10,6 +11,14 @@ body {
   background-size: cover; /* This property ensures the image covers the entire body */
   background-position: center;
   background-attachment: fixed; /* Set the background position as fixed */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 60px;
+  padding-bottom: 60px; /* Adjust as needed */
 }
 
 /*NAVBAR*/
@@ -47,7 +56,9 @@ body {
 
 /*FOOTER*/
 footer {
+  position: fixed;
   height: 20vh;
+  width: 100%;
   background-color: red;
   color: white;
   bottom: 0;
@@ -63,12 +74,12 @@ footer {
 /*-----------------------------TRAINER_PAGE------------------------------------*/
 /*TRAINERS*/
 .trainers-container {
-  min-height: 100vh;
+  min-height: auto;
   border-collapse: collapse;
   margin: 1%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .trainers-container table {
@@ -103,7 +114,7 @@ footer {
 
 /*-----------------------------COLLECTION_PAGE---------------------------------*/
 .collection-container {
-  min-height: 100vh;
+  min-height: auto;
   border-collapse: collapse;
   margin: 1%;
   display: flex;
@@ -176,9 +187,13 @@ footer {
 /*-----------------------------POKEMON_CARD_PAGE-------------------------------*/
 /*CARDS*/
 .cards-container {
-  min-height: 100vh;
+  min-height: auto;
+  /* border-collapse: collapse; */
   margin: 1%;
+  /* display: flex; */
   text-align: center;
+  font-size: 12px;
+  padding-bottom: 160px;
 }
 
 .card-box {
@@ -469,4 +484,61 @@ footer {
 .card-image,
 #fairy-img {
   background: radial-gradient(circle, transparent, #cd1179);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin-right: 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #dee2e6;
+  color: #007bff;
+  background-color: #fff;
+}
+
+.page-link:hover {
+  background-color: #f0f0f0;
+}
+
+/* Adjusted selectors to accommodate classes with spaces */
+.page-item.disabled {
+  /* Styles for disabled pagination item */
+  color: #6c757d;
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.page-item.active {
+  /* Styles for active pagination item */
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  z-index: 3;
+}
+
+/* Social Icons for footer */
+
+.social-icons a {
+  color: white;
+  text-decoration: none; 
+  /* Add other styling properties as needed */
+}
+
+/* Hover effect for the links */
+.social-icons a:hover {
+  color: #ffffff; /* Change color on hover if desired */
+  /* Add additional hover effects */
 }
